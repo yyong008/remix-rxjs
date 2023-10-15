@@ -12,17 +12,7 @@ export default function Index() {
   // const navigate = useNavigate()
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix with RxJS</h1>
-      <ul>
-        <li>
-          <Link
-            to="/rxjs/keybr"
-            rel="noreferrer"
-          >
-            rxjs.keybr
-          </Link>
-        </li>
-      </ul>
+      <h1>RxJS Keybr</h1>
     </div>
   );
 }
